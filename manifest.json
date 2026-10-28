@@ -1,0 +1,33 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Warp",
+        "description": "Warp Wryjonue",
+        "uuid": "d34f0456-5ece-4ae9-b36c-5aa4401429db",
+        "version": [0, 0, 1],
+        "min_engine_version": [1,21,80]
+    },
+    "modules": [
+        {
+            "type": "script",
+            "uuid": "e38cb194-751d-4595-9c89-7a3d6b9860b6",
+            "entry": "scripts/index.js",
+            "version": [ 0, 0, 1 ]
+        }, {
+            "type": "data",
+            "uuid": "8e935598-dddd-4acf-8444-63ce5e4a53ef",
+            "version": [0, 0, 1]
+        }
+    ],
+    "capabilities": [ "script_eval" ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "beta"
+        }, {
+            "module_name": "@minecraft/server-ui",
+            "version": "beta"
+        }
+
+    ]
+}

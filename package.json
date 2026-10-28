@@ -1,0 +1,16 @@
+{
+  "name": "wry-warp",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "scripts/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@minecraft/server": "^2.13.0-beta.1.26.70-preview.21",
+    "@minecraft/server-ui": "^2.5.0-beta.1.26.70-preview.21"
+  }
+}
